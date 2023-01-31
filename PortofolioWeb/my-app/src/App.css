@@ -1,0 +1,55 @@
+#home{
+  margin:0 50px;
+}
+#home h2,h3{
+  text-align: center;
+}
+
+#home h2{
+  font-size: 35px;
+  margin: 30px;
+}
+
+#home h3{
+  font-size: 20px;
+}
+#home h2 span{
+  color:#2978b5 ;
+  font-weight: bold;
+}
+
+#home p{
+ text-align:center;
+}
+
+#home .icons{
+  text-align: center;
+}
+
+#home  a{
+  text-decoration: none;
+  padding:0 30px;
+  color: rgb(16, 16, 16);
+  font-size: 30px;
+}
+
+#projects h4, #skills h4, #contact h4 { 
+  text-align: center;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+
+
+#contact p span{
+  font-weight: bold;
+}
+
+
+#contact Card{
+  text-align: center;
+}
+
+#footer span{
+  font-weight: bold;
+}
