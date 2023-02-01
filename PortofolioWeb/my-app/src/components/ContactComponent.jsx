@@ -19,6 +19,7 @@ export default function ContactComponent() {
           <Col>
             <Card>
               <Card.Body className="text-center">
+                
                 <p>
                   <AiOutlineMail /> Email: <br /> <span>sted96@gmail.com</span>
                 </p>

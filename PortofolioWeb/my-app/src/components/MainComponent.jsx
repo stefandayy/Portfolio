@@ -11,10 +11,13 @@ export default function MainComponent() {
       <h3>A Junior Front End Developer</h3>
 
       <p>
-        Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis
-        perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus
-        modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores
-        minima consectetur.
+        A Junior Front End Developer eager to start my career and
+        contribute to building amazing user experiences. While I may not have
+        any professional experience yet, I have been working on personal
+        projects and honing my skills in HTML, CSS, JavaScript and modern
+        frontend frameworks such as React. I have a passion for designing
+        intuitive, visually appealing, and responsive websites and have a strong
+        understanding of the principles of user-centered design.
       </p>
 
       <div className="icons">
