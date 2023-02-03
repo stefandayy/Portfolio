@@ -1,8 +1,14 @@
 import React from "react";
 import { Row, Col, Button, Container, Badge } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
-import { SiCss3, SiHtml5, SiJavascript,SiReact } from "react-icons/si";
-/* import wApp from './assets/wApp.png' */
+import {
+  SiBootstrap,
+  SiCss3,
+  SiHtml5,
+  SiJavascript,
+  SiReact,
+} from "react-icons/si";
+
 
 export default function ProjectsComponent() {
   return (
@@ -10,7 +16,7 @@ export default function ProjectsComponent() {
       <h4>PROJECTS</h4>
       <Row xs={1} md={1} className="g-4 m-3">
         <Col>
-          <Card>
+          <Card className="px-2">
             {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
             <Card.Body>
               <Card.Title>Calculator</Card.Title>
@@ -50,21 +56,24 @@ export default function ProjectsComponent() {
         </Col>
 
         <Col>
-          <Card>
-          {/* <Card.Img variant="top" src={wApp} alt="wApp" style={{width:'100p',height:'180',margin:"10px"}} /> */}
+          <Card className="px-2" >
+            {/* <Card.Img variant="top" src={wApp} alt="wApp" style={{width:'100p',height:'180',margin:"10px"}} /> */}
             <Card.Body>
               <Card.Title>Weather App</Card.Title>
               <Card.Text>
                 <p>
-                  This is a Weather app made in React.js and i choose the API
+                  This is a responsive Weather app made in React.js and Boostrap and i choose the API
                   from Open Weather.
                 </p>
-                <Badge  bg="secondary">
+                <Badge bg="secondary">
                   React.js <SiReact />
+                </Badge>{" "}
+                <Badge bg="secondary">
+                  Bootstrap <SiBootstrap />
                 </Badge>
               </Card.Text>
               <a
-                href="https://weather-app-ecru-nu.vercel.app/"
+                href="https://weather-app-bootstrap-1-stefandayy.vercel.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -73,7 +82,7 @@ export default function ProjectsComponent() {
                 </Button>
               </a>
               <a
-                href="https://github.com/stefandayy/WeatherApp"
+                href="https://github.com/stefandayy/Weather-app-bootstrap"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -86,9 +95,9 @@ export default function ProjectsComponent() {
         </Col>
 
         <Col>
-          <Card>
+          <Card className="px-2">
             {/* <Card.Img variant="top" src="holder.js/100px160" /> */}
-            <Card.Body>
+            <Card.Body >
               <Card.Title>Card title</Card.Title>
               <Card.Text>
                 This is a longer card with supporting text below as a natural
